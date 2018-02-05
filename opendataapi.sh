@@ -1,7 +1,7 @@
 #!/bin/bash
 
-execPath=/home/jkw/opendataplatform
-errorLogPath=/home/jkw/opendataplatform/error.log
+execPath=/pwd/tcdc_opendata_visualization_data
+errorLogPath=/pwd/tcdc_opendata_visualization_data/error.log
 cd $execPath
 
 # open data platform api
