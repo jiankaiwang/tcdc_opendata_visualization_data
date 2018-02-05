@@ -20,7 +20,7 @@ if os.path.isfile(defaultConfigPath):
     
 def formatMsg():
     global today, querySuccessData, queryFailureData, exceptionData
-    mainMsg = u'{}自動化開放資料API資料準備，共{}成功，共{}失敗，分別為{}，有{}尚在運行中，分別為{}。'
+    mainMsg = u'{}自動化開放資料平台視覺化API準備，共{}成功，共{}失敗，分別為{}，有{}尚在運行中，分別為{}。'
     
     failData = ""
     if len(queryFailureData['data']) > 0:
