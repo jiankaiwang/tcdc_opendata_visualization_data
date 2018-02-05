@@ -1,7 +1,7 @@
 @echo off
 
-cd C:\Users\acer4755g\devops\opendataplatform
-set errorLogPath=/home/jkw/opendataplatform/error.log
+cd C:\devops\tcdc_opendata_visualization_data
+set errorLogPath=C:\devops\tcdc_opendata_visualization_data\error.log
 
 # open data platform api
 python dengue.py >> %errorLogPath%

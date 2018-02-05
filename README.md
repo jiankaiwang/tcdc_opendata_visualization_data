@@ -62,7 +62,11 @@ create table dengue (year int, month int, dengueval int) default character set u
 
 
 
-* MySQL Server Configuration Example (**config/opendata.txt**)
+* Create a new folder named **config**.
+
+
+
+* Add a MySQL Server Configuration under **config/opendata.txt**, the exmaple is the following:
 
 ```
 [mysql]
@@ -75,7 +79,7 @@ db = oddb
 
 
 
-* Line Configuration Example (**config/line.txt**)
+* Add a Line Configuration under **config/line.txt**, the example is the following:
 
 ```
 [DevOps]
@@ -96,14 +100,20 @@ token = 0123456789abcdefghijklmnopqrstuvwxyz-+!@#$%
 
 
 
+
+
 ## Scheduling / Execution
 
 
 
-* [Windows] Edit the task scheduler (**Under Control Panel**) and use **opendataapi.bat** as the execution.
+* Windows
+  * Edit the opendataapi.bat with the execution path.
+  * Edit the task scheduler (**Under Control Panel**) and use **opendataapi.bat** as the execution.
 
 
-* [Linux] Edit the crontab (**/etc/crontab**).
+* Linux
+  * Edit the opendataapi.sh with the execution path.
+  * Edit the crontab (**/etc/crontab**).
 
 ```
 10 8    * * *   user     sh /pwd/opendataapi.sh
